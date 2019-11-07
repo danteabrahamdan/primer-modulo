@@ -1,0 +1,16 @@
+input {
+	width: 25%;
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: 25%;
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}

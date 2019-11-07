@@ -1,0 +1,32 @@
+h4 {
+	
+	width: 80%;
+	padding: 10px;
+	background-color: black;
+	color: #fff
+}
+
+form
+{
+
+	width: 30%;
+	background-color: red;
+	text-align: center;
+
+}
+input
+{
+	width: 200px;
+
+
+}
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: 40%;
+	height: 50px;
+	border-radius: 20px;
+	margin: 3%;
+	border: none;
+		margin-bottom: 25px;
+}

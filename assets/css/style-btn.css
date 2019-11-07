@@ -1,0 +1,69 @@
+.btn-add {
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 50% !important;
+  background-color: #2CC798;
+  box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 5%;
+  right: -8%;
+  transition: scale .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999 !important;
+}
+
+.btn-add:hover {
+  scale: 1.06;
+}
+
+.btn-add-svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 320px) and (min-height: 500px) {
+  .container-scroll-vertical {
+    grid-template-columns: 1fr;
+    height: 350px;
+  }
+
+  .btn-add {
+    bottom: -2%;
+    right: -2%;
+  }
+}
+
+@media (max-width: 414px) and (min-height: 600px) {
+  .container-scroll-vertical {
+    grid-template-columns: 1fr;
+    height: 380px;
+  }
+
+  .btn-add {
+    bottom: -3%;
+  }
+}
+
+@media (max-width: 414px) and (min-height: 700px) {
+  .container-scroll-vertical {
+    grid-template-columns: 1fr;
+    height: 450px;
+  }
+
+  .btn-add {
+    bottom: -2%;
+  }
+}
+
+@media (max-width: 414px) and (min-height: 800px) {
+  .container-scroll-vertical {
+    grid-template-columns: 1fr;
+    height: 530px;
+  }
+
+  .btn-add {
+    bottom: -2%;
+  }
+}

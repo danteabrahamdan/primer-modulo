@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type='submit'] {
+  max-width: 50%;
+  border: none;
+  height: 40px;
+  color: #fff;
+  background: #2CC798;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: scale .5s ease;
+}
+
+input[type='submit']:hover {
+  scale: 1.02;
+}
+
+@media screen and (max-width: 340px) {
+  input[type='submit'] {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  input[type='submit'] {
+    max-width: 100%;
+  }
+}
+
+/* --------------- */
+/* styles snackbar */
+/* --------------- */
+#snackbar {
+  height: 35px;
+  background: #2CC798;
+  position: absolute;
+  min-width: 600px;
+  transform: translate(-50%);
+  visibility: hidden;
+  left: 50%;
+  bottom: 0;
+  text-align: center;
+  padding-top: 15px;
+  color: #fff;
+  z-index: 99;
+}
+
+#snackbar.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 4s;
+}
+
+@keyframes fadein {
+  from {
+    bottom: -35px;
+    opacity: 0;      
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 0;
+    opacity: 1;
+  }
+
+  to {
+    bottom: -35px;
+    opacity: 0;
+  }
+}

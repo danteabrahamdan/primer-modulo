@@ -1,0 +1,30 @@
+.content label:first-of-type {
+  padding-top: 15px;
+}
+
+.content label {
+  font-size: 11px;
+  color: #000;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.content-info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 11px;
+  color: #000;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 414px) {
+  .content label:first-of-type {
+    padding-top: 0px;
+  }    
+}
+
+@media screen and (max-width: 340px) {
+  .content label:first-of-type {
+    padding-top: 0px;
+  }    
+}
